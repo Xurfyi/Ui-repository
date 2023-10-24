@@ -14,7 +14,19 @@ body {
 
 #Task1 {
     color: rgb(0, 0, 0);
-    background-color: aqua;
+    width:68%; /* change this for your desired width */
+    padding: auto;
+    margin: auto;
+    margin-bottom: 50px;
+    background: rgba(255, 6, 6, 0.5); /* rgba(): rgb is the color ( red, green, blue) and the "a" is for alpha ( transparency ) */
+    height: 60px; /* change this for your custom height  */
+    display: flex;
+    justify-content: center;
+    -moz-border-radius: 50px;
+    -webkit-border-radius: 50px;
+    border-radius: 50px
+
+    
     
    
     
@@ -23,17 +35,14 @@ body {
     
 }
 
-.parent {
-    display: flex;
-    justify-content: center;
-    width: 1500px
-    
-    
-}
+
+
+
 
 #GGame {
     color: coral;
     background-color: brown;
+
 }
 
 .parent1 {
@@ -47,18 +56,27 @@ body {
 
 #NAve {
     color: rgb(255, 140, 0);
-    background: aqua;
+    color: rgb(55, 0, 255);
+    width:68%; /* change this for your desired width */
+    padding: auto;
+    margin: auto;
+    margin-bottom: 50px;
+      height: 60px; /* change this for your custom height  */
 }
 .parent3 {
+    background: hsl(189, 90%, 45%);
+    height: 60vh;
     display: flex;
-    justify-content:center
-    
+   place-content:center;
+    -moz-border-radius: 500px;
+    -webkit-border-radius: 50px;
+    border-radius: 50px
+
   }
+  background-image: url('images/шь.webp);
   
  
-  .child3 {
-    border: 2px solid rgb(0, 0, 0);
-  }
+  
 
 
   
